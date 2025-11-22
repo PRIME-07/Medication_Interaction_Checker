@@ -1,0 +1,967 @@
+drugbank_id,interactant_id,name,organism,known_action
+DB00023,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00059,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00070,BE0000530,Albumin,Humans,unknown
+DB00080,BE0000530,Albumin,Humans,no
+DB00080,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00080,BE0000952,Alpha-1-antitrypsin,Humans,no
+DB00080,BE0000499,Low-density lipoprotein receptor,Humans,no
+DB00080,BE0000685,Sex hormone-binding globulin,Humans,no
+DB00080,BE0009909,Hemopexin,Humans,no
+DB00083,BE0000530,Albumin,Humans,unknown
+DB00104,BE0000530,Albumin,Humans,unknown
+DB00107,BE0000751,Oxytocin-neurophysin 1,Humans,unknown
+DB00126,BE0000530,Albumin,Humans,unknown
+DB00132,BE0001821,"Fatty acid-binding protein, brain",Humans,unknown
+DB00136,BE0001141,Vitamin D-binding protein,Humans,no
+DB00137,BE0000530,Albumin,Humans,unknown
+DB00152,BE0000530,Albumin,Humans,unknown
+DB00153,BE0001141,Vitamin D-binding protein,Humans,no
+DB00154,BE0001821,"Fatty acid-binding protein, brain",Humans,unknown
+DB00159,BE0000530,Albumin,Humans,no
+DB00162,BE0000530,Albumin,Humans,unknown
+DB00162,BE0000786,Retinaldehyde-binding protein 1,Humans,unknown
+DB00162,BE0000255,Retinol-binding protein 3,Humans,unknown
+DB00162,BE0000301,Retinol-binding protein 1,Humans,unknown
+DB00162,BE0000682,Retinol-binding protein 5,Humans,unknown
+DB00162,BE0000532,Retinoid-binding protein 7,Humans,unknown
+DB00162,BE0000314,Retinol-binding protein 4,Humans,unknown
+DB00162,BE0000505,Retinol-binding protein 2,Humans,unknown
+DB00163,BE0000256,SEC14-like protein 2,Humans,unknown
+DB00163,BE0000339,SEC14-like protein 3,Humans,unknown
+DB00163,BE0009656,Phospholipid transfer protein,Humans,unknown
+DB00163,BE0000643,Alpha-tocopherol transfer protein,Humans,unknown
+DB00165,BE0000530,Albumin,Humans,unknown
+DB00169,BE0001141,Vitamin D-binding protein,Humans,no
+DB00180,BE0000209,Corticosteroid-binding globulin,Humans,no
+DB00200,BE0000362,Transcobalamin-2,Humans,unknown
+DB00214,BE0000530,Albumin,Humans,unknown
+DB00220,BE0000530,Albumin,Humans,no
+DB00220,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00227,BE0000530,Albumin,Humans,no
+DB00228,BE0000530,Albumin,Humans,unknown
+DB00237,BE0000530,Albumin,Humans,unknown
+DB00238,BE0000530,Albumin,Humans,unknown
+DB00240,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00243,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00245,BE0000530,Albumin,Humans,no
+DB00246,BE0000530,Albumin,Humans,unknown
+DB00246,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00252,BE0000530,Albumin,Humans,unknown
+DB00252,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00253,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00254,BE0000530,Albumin,Humans,unknown
+DB00255,BE0000337,Transthyretin,Humans,unknown
+DB00264,BE0000530,Albumin,Humans,no
+DB00266,BE0000530,Albumin,Humans,unknown
+DB00273,BE0000530,Albumin,Humans,unknown
+DB00274,BE0000530,Albumin,Humans,no
+DB00278,BE0000530,Albumin,Humans,unknown
+DB00278,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00279,BE0000337,Transthyretin,Humans,unknown
+DB00279,BE0000537,Thyroxine-binding globulin,Humans,unknown
+DB00279,BE0000530,Albumin,Humans,unknown
+DB00280,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00286,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00286,BE0000685,Sex hormone-binding globulin,Humans,no
+DB00286,BE0000530,Albumin,Humans,no
+DB00289,BE0000530,Albumin,Humans,no
+DB00289,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB00289,BE0000710,High affinity immunoglobulin gamma Fc receptor I,Humans,no
+DB00292,BE0001057,"Solute carrier family 2, facilitated glucose transporter member 1",Humans,unknown
+DB00294,BE0000530,Albumin,Humans,no
+DB00294,BE0000685,Sex hormone-binding globulin,Humans,no
+DB00295,BE0000530,Albumin,Humans,no
+DB00296,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00303,BE0000530,Albumin,Humans,no
+DB00304,BE0000530,Albumin,Humans,no
+DB00304,BE0000685,Sex hormone-binding globulin,Humans,no
+DB00310,BE0000530,Albumin,Humans,no
+DB00313,BE0000530,Albumin,Humans,unknown
+DB00316,BE0000530,Albumin,Humans,unknown
+DB00317,BE0000530,Albumin,Humans,unknown
+DB00317,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00321,BE0000530,Albumin,Humans,no
+DB00321,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00322,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00324,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00327,BE0000530,Albumin,Humans,no
+DB00328,BE0000530,Albumin,Humans,unknown
+DB00332,BE0000530,Albumin,Humans,no
+DB00332,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB00333,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00333,BE0000530,Albumin,Humans,no
+DB00334,BE0000530,Albumin,Humans,no
+DB00334,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00335,BE0000530,Albumin,Humans,no
+DB00342,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00342,BE0000530,Albumin,Humans,unknown
+DB00343,BE0000530,Albumin,Humans,no
+DB00343,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00346,BE0000530,Albumin,Humans,unknown
+DB00346,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00349,BE0000530,Albumin,Humans,no
+DB00349,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00363,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00363,BE0000530,Albumin,Humans,no
+DB00366,BE0000530,Albumin,Humans,unknown
+DB00376,BE0000530,Albumin,Humans,unknown
+DB00391,BE0000530,Albumin,Humans,no
+DB00394,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00404,BE0000530,Albumin,Humans,unknown
+DB00404,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00409,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00412,BE0000530,Albumin,Humans,unknown
+DB00414,BE0000530,Albumin,Humans,unknown
+DB00415,BE0000530,Albumin,Humans,no
+DB00421,BE0000530,Albumin,Humans,unknown
+DB00421,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00427,BE0000530,Albumin,Humans,unknown
+DB00430,BE0000530,Albumin,Humans,unknown
+DB00432,BE0000530,Albumin,Humans,unknown
+DB00434,BE0000530,Albumin,Humans,unknown
+DB00438,BE0000530,Albumin,Humans,no
+DB00443,BE0000530,Albumin,Humans,unknown
+DB00443,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00451,BE0000337,Transthyretin,Humans,no
+DB00451,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00451,BE0000530,Albumin,Humans,no
+DB00454,BE0000530,Albumin,Humans,unknown
+DB00454,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00456,BE0000530,Albumin,Humans,unknown
+DB00457,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00458,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00458,BE0000530,Albumin,Humans,unknown
+DB00459,BE0000530,Albumin,Humans,unknown
+DB00460,BE0010065,Apolipoproteins,Humans,no
+DB00461,BE0000530,Albumin,Humans,unknown
+DB00472,BE0000530,Albumin,Humans,unknown
+DB00472,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00476,BE0000530,Albumin,Humans,unknown
+DB00476,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00477,BE0000530,Albumin,Humans,unknown
+DB00481,BE0000530,Albumin,Humans,no
+DB00481,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00485,BE0000530,Albumin,Humans,unknown
+DB00490,BE0000530,Albumin,Humans,unknown
+DB00490,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00495,BE0000530,Albumin,Humans,no
+DB00497,BE0000530,Albumin,Humans,unknown
+DB00497,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00500,BE0000530,Albumin,Humans,unknown
+DB00501,BE0000530,Albumin,Humans,unknown
+DB00503,BE0000530,Albumin,Humans,unknown
+DB00503,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00512,BE0000530,Albumin,Humans,no
+DB00512,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB00512,BE0009144,Histamine H1 receptor,Mouse,no
+DB00515,BE0000530,Albumin,Humans,unknown
+DB00523,BE0000782,Cellular retinoic acid-binding protein 2,Humans,unknown
+DB00523,BE0000508,Cellular retinoic acid-binding protein 1,Humans,unknown
+DB00526,BE0000530,Albumin,Humans,no
+DB00530,BE0000530,Albumin,Humans,unknown
+DB00530,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00532,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00537,BE0000530,Albumin,Humans,unknown
+DB00540,BE0000530,Albumin,Humans,no
+DB00540,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00543,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00544,BE0000530,Albumin,Humans,no
+DB00544,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00554,BE0000530,Albumin,Humans,unknown
+DB00555,BE0000530,Albumin,Humans,unknown
+DB00557,BE0000530,Albumin,Humans,unknown
+DB00563,BE0000530,Albumin,Humans,no
+DB00567,BE0000530,Albumin,Humans,no
+DB00568,BE0000530,Albumin,Humans,unknown
+DB00571,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00571,BE0000530,Albumin,Humans,unknown
+DB00572,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00573,BE0000530,Albumin,Humans,unknown
+DB00575,BE0000530,Albumin,Humans,unknown
+DB00576,BE0000530,Albumin,Humans,unknown
+DB00584,BE0000530,Albumin,Humans,no
+DB00586,BE0000337,Transthyretin,Humans,unknown
+DB00586,BE0000530,Albumin,Humans,unknown
+DB00588,BE0001004,Solute carrier organic anion transporter family member 1B1,Humans,no
+DB00588,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00591,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00595,BE0000530,Albumin,Humans,unknown
+DB00596,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00598,BE0000530,Albumin,Humans,unknown
+DB00598,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00601,BE0000530,Albumin,Humans,no
+DB00603,BE0000530,Albumin,Humans,unknown
+DB00605,BE0000530,Albumin,Humans,unknown
+DB00607,BE0000530,Albumin,Humans,unknown
+DB00608,BE0000530,Albumin,Humans,unknown
+DB00608,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00619,BE0000530,Albumin,Humans,no
+DB00619,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00620,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00620,BE0000530,Albumin,Humans,unknown
+DB00624,BE0000530,Albumin,Humans,no
+DB00624,BE0000685,Sex hormone-binding globulin,Humans,no
+DB00625,BE0000530,Albumin,Humans,unknown
+DB00627,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00635,BE0000530,Albumin,Humans,unknown
+DB00635,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00636,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00640,BE0000530,Albumin,Humans,unknown
+DB00642,BE0000530,Albumin,Humans,no
+DB00648,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00648,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB00648,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00649,BE0000530,Albumin,Humans,unknown
+DB00655,BE0000530,Albumin,Humans,no
+DB00661,BE0000530,Albumin,Humans,unknown
+DB00661,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00663,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00675,BE0000530,Albumin,Humans,unknown
+DB00675,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00677,BE0000530,Albumin,Humans,unknown
+DB00678,BE0000530,Albumin,Humans,unknown
+DB00682,BE0000530,Albumin,Humans,no
+DB00682,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00683,BE0000530,Albumin,Humans,no
+DB00683,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00687,BE0000530,Albumin,Humans,unknown
+DB00687,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00695,BE0000530,Albumin,Humans,no
+DB00695,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00706,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00709,BE0000530,Albumin,Humans,unknown
+DB00712,BE0000530,Albumin,Humans,no
+DB00714,BE0000530,Albumin,Humans,unknown
+DB00717,BE0000530,Albumin,Humans,unknown
+DB00717,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB00731,BE0000530,Albumin,Humans,unknown
+DB00731,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00734,BE0000530,Albumin,Humans,unknown
+DB00734,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00737,BE0000530,Albumin,Humans,no
+DB00741,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB00741,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00743,BE0000530,Albumin,Humans,no
+DB00744,BE0000530,Albumin,Humans,unknown
+DB00748,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00749,BE0000530,Albumin,Humans,unknown
+DB00753,BE0000530,Albumin,Humans,unknown
+DB00754,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00755,BE0000530,Albumin,Humans,unknown
+DB00758,BE0000530,Albumin,Humans,no
+DB00759,BE0000530,Albumin,Humans,no
+DB00762,BE0000530,Albumin,Humans,unknown
+DB00768,BE0000530,Albumin,Humans,no
+DB00770,BE0000530,Albumin,Humans,unknown
+DB00774,BE0000530,Albumin,Humans,unknown
+DB00776,BE0000530,Albumin,Humans,unknown
+DB00783,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB00783,BE0000530,Albumin,Humans,no
+DB00783,BE0003591,"Fatty acid-binding protein, intestinal",Humans,no
+DB00784,BE0000530,Albumin,Humans,unknown
+DB00787,BE0000530,Albumin,Humans,unknown
+DB00788,BE0000530,Albumin,Humans,no
+DB00792,BE0000530,Albumin,Humans,unknown
+DB00795,BE0000530,Albumin,Humans,no
+DB00802,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00802,BE0000530,Albumin,Humans,unknown
+DB00808,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00808,BE0000530,Albumin,Humans,unknown
+DB00808,BE0010007,Erythrocyte,Humans,unknown
+DB00813,BE0000530,Albumin,Humans,unknown
+DB00813,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00814,BE0000530,Albumin,Humans,unknown
+DB00815,BE0000530,Albumin,Humans,unknown
+DB00818,BE0000530,Albumin,Humans,no
+DB00829,BE0000530,Albumin,Humans,no
+DB00842,BE0000530,Albumin,Humans,unknown
+DB00845,BE0000530,Albumin,Humans,unknown
+DB00846,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00847,BE0000530,Albumin,Humans,unknown
+DB00850,BE0000530,Albumin,Humans,unknown
+DB00852,BE0000530,Albumin,Humans,unknown
+DB00853,BE0000530,Albumin,Humans,no
+DB00853,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00857,BE0000530,Albumin,Humans,unknown
+DB00857,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00858,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB00860,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00860,BE0000530,Albumin,Humans,unknown
+DB00861,BE0000337,Transthyretin,Humans,unknown
+DB00861,BE0000530,Albumin,Humans,unknown
+DB00864,BE0000530,Albumin,Humans,unknown
+DB00864,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00870,BE0000530,Albumin,Humans,unknown
+DB00877,BE0000530,Albumin,Humans,no
+DB00877,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00877,BE0010065,Apolipoproteins,Humans,no
+DB00878,BE0000530,Albumin,Humans,unknown
+DB00879,BE0000530,Albumin,Humans,unknown
+DB00881,BE0000530,Albumin,Humans,unknown
+DB00893,BE0000510,Serotransferrin,Humans,unknown
+DB00896,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB00900,BE0000530,Albumin,Humans,unknown
+DB00903,BE0000530,Albumin,Humans,unknown
+DB00907,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00908,BE0000530,Albumin,Humans,unknown
+DB00908,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB00912,BE0000530,Albumin,Humans,unknown
+DB00924,BE0000530,Albumin,Humans,unknown
+DB00926,BE0000508,Cellular retinoic acid-binding protein 1,Humans,unknown
+DB00931,BE0000530,Albumin,Humans,no
+DB00934,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00936,BE0000530,Albumin,Humans,no
+DB00938,BE0000530,Albumin,Humans,unknown
+DB00938,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00939,BE0000537,Thyroxine-binding globulin,Humans,no
+DB00943,BE0000530,Albumin,Humans,unknown
+DB00946,BE0000530,Albumin,Humans,no
+DB00946,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB00950,BE0000530,Albumin,Humans,unknown
+DB00950,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00951,BE0000530,Albumin,Humans,unknown
+DB00957,BE0000530,Albumin,Humans,unknown
+DB00957,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB00959,BE0000530,Albumin,Humans,unknown
+DB00960,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00968,BE0000530,Albumin,Humans,no
+DB00977,BE0000530,Albumin,Humans,unknown
+DB00977,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB00982,BE0000530,Albumin,Humans,unknown
+DB00983,BE0000530,Albumin,Humans,unknown
+DB00986,BE0000530,Albumin,Humans,unknown
+DB00986,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB00993,BE0000530,Albumin,Humans,unknown
+DB00995,BE0000530,Albumin,Humans,unknown
+DB00997,BE0000530,Albumin,Humans,unknown
+DB00999,BE0000530,Albumin,Humans,unknown
+DB01005,BE0000530,Albumin,Humans,no
+DB01006,BE0000530,Albumin,Humans,unknown
+DB01009,BE0000530,Albumin,Humans,unknown
+DB01013,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB01013,BE0000530,Albumin,Humans,unknown
+DB01015,BE0000530,Albumin,Humans,no
+DB01016,BE0000530,Albumin,Humans,unknown
+DB01024,BE0000530,Albumin,Humans,unknown
+DB01026,BE0000530,Albumin,Humans,unknown
+DB01026,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB01029,BE0000530,Albumin,Humans,unknown
+DB01029,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB01032,BE0000530,Albumin,Humans,no
+DB01039,BE0000530,Albumin,Humans,unknown
+DB01042,BE0000530,Albumin,Humans,unknown
+DB01042,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB01044,BE0000530,Albumin,Humans,unknown
+DB01045,BE0000530,Albumin,Humans,unknown
+DB01045,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB01047,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB01050,BE0000530,Albumin,Humans,no
+DB01053,BE0000530,Albumin,Humans,unknown
+DB01056,BE0000530,Albumin,Humans,no
+DB01057,BE0000530,Albumin,Humans,unknown
+DB01058,BE0000530,Albumin,Humans,no
+DB01060,BE0000530,Albumin,Humans,unknown
+DB01062,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB01062,BE0000530,Albumin,Humans,unknown
+DB01064,BE0000530,Albumin,Humans,unknown
+DB01067,BE0000530,Albumin,Humans,no
+DB01068,BE0000530,Albumin,Humans,no
+DB01069,BE0000530,Albumin,Humans,unknown
+DB01072,BE0000530,Albumin,Humans,no
+DB01072,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB01076,BE0000530,Albumin,Humans,no
+DB01083,BE0000530,Albumin,Humans,unknown
+DB01086,BE0000530,Albumin,Humans,unknown
+DB01086,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB01088,BE0000530,Albumin,Humans,unknown
+DB01093,BE0000337,Transthyretin,Humans,unknown
+DB01098,BE0000530,Albumin,Humans,unknown
+DB01101,BE0000530,Albumin,Humans,no
+DB01104,BE0000530,Albumin,Humans,unknown
+DB01110,BE0000530,Albumin,Humans,unknown
+DB01115,BE0000530,Albumin,Humans,unknown
+DB01115,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB01118,BE0000530,Albumin,Humans,unknown
+DB01119,BE0000530,Albumin,Humans,unknown
+DB01120,BE0000530,Albumin,Humans,unknown
+DB01124,BE0000530,Albumin,Humans,unknown
+DB01126,BE0000530,Albumin,Humans,no
+DB01126,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB01132,BE0000530,Albumin,Humans,unknown
+DB01133,BE0000530,Albumin,Humans,unknown
+DB01136,BE0000530,Albumin,Humans,unknown
+DB01137,BE0000530,Albumin,Humans,unknown
+DB01138,BE0003591,"Fatty acid-binding protein, intestinal",Humans,no
+DB01142,BE0000530,Albumin,Humans,no
+DB01142,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB01147,BE0000530,Albumin,Humans,no
+DB01151,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB01156,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB01159,BE0000530,Albumin,Humans,unknown
+DB01167,BE0000530,Albumin,Humans,unknown
+DB01169,BE0000530,Albumin,Humans,no
+DB01173,BE0000530,Albumin,Humans,unknown
+DB01176,BE0000530,Albumin,Humans,unknown
+DB01183,BE0000530,Albumin,Humans,unknown
+DB01185,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB01189,BE0000530,Albumin,Humans,unknown
+DB01190,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB01195,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB01195,BE0000530,Albumin,Humans,unknown
+DB01197,BE0000530,Albumin,Humans,no
+DB01203,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB01212,BE0000530,Albumin,Humans,no
+DB01219,BE0000537,Thyroxine-binding globulin,Humans,no
+DB01222,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB01222,BE0000530,Albumin,Humans,unknown
+DB01232,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB01232,BE0000530,Albumin,Humans,unknown
+DB01233,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB01234,BE0000530,Albumin,Humans,unknown
+DB01235,BE0000530,Albumin,Humans,unknown
+DB01236,BE0000530,Albumin,Humans,unknown
+DB01238,BE0000530,Albumin,Humans,unknown
+DB01241,BE0000530,Albumin,Humans,unknown
+DB01242,BE0000530,Albumin,Humans,unknown
+DB01264,BE0000530,Albumin,Humans,unknown
+DB01264,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB01275,BE0000530,Albumin,Humans,unknown
+DB01276,BE0000530,Albumin,Humans,unknown
+DB01277,BE0000970,Insulin-like growth factor-binding protein 3,Humans,unknown
+DB01277,BE0009058,Insulin-like growth factor-binding protein complex acid labile subunit,Humans,unknown
+DB01277,BE0009658,Insulin-like growth factor-binding protein 1,Humans,unknown
+DB01277,BE0009659,Insulin-like growth factor-binding protein 2,Humans,unknown
+DB01277,BE0009660,Insulin-like growth factor-binding protein 4,Humans,unknown
+DB01277,BE0009661,Insulin-like growth factor-binding protein 5,Humans,unknown
+DB01277,BE0009662,Insulin-like growth factor-binding protein 6,Humans,unknown
+DB01280,BE0001204,Equilibrative nucleoside transporter 1,Humans,no
+DB01294,BE0000530,Albumin,Humans,no
+DB01294,BE0000510,Serotransferrin,Humans,unknown
+DB01307,BE0000530,Albumin,Humans,no
+DB01320,BE0000530,Albumin,Humans,no
+DB01320,BE0000537,Thyroxine-binding globulin,Humans,no
+DB01324,BE0000530,Albumin,Humans,unknown
+DB01327,BE0000530,Albumin,Humans,unknown
+DB01328,BE0000530,Albumin,Humans,no
+DB01329,BE0000530,Albumin,Humans,no
+DB01330,BE0000530,Albumin,Humans,no
+DB01359,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB01364,BE0000530,Albumin,Humans,unknown
+DB01370,BE0000530,Albumin,Humans,unknown
+DB01380,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB01380,BE0000530,Albumin,Humans,unknown
+DB01384,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB01394,BE0000530,Albumin,Humans,unknown
+DB01396,BE0000530,Albumin,Humans,no
+DB01397,BE0000530,Albumin,Humans,no
+DB01406,BE0000685,Sex hormone-binding globulin,Humans,no
+DB01410,BE0000209,Corticosteroid-binding globulin,Humans,no
+DB01418,BE0000530,Albumin,Humans,no
+DB01418,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB01420,BE0000685,Sex hormone-binding globulin,Humans,no
+DB01420,BE0000530,Albumin,Humans,no
+DB01426,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB01429,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB01436,BE0001141,Vitamin D-binding protein,Humans,unknown
+DB01436,BE0010059,Alpha globin,Humans,no
+DB01452,BE0000537,Thyroxine-binding globulin,Humans,no
+DB01581,BE0000530,Albumin,Humans,unknown
+DB01582,BE0000530,Albumin,Humans,unknown
+DB01583,BE0000337,Transthyretin,Humans,unknown
+DB01583,BE0000537,Thyroxine-binding globulin,Humans,unknown
+DB01583,BE0000530,Albumin,Humans,unknown
+DB01587,BE0000530,Albumin,Humans,unknown
+DB01591,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB01601,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB01601,BE0000530,Albumin,Humans,unknown
+DB01611,BE0000530,Albumin,Humans,unknown
+DB01611,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB01614,BE0000530,Albumin,Humans,unknown
+DB01619,BE0000530,Albumin,Humans,unknown
+DB01621,BE0000530,Albumin,Humans,unknown
+DB01622,BE0000530,Albumin,Humans,unknown
+DB01623,BE0000530,Albumin,Humans,unknown
+DB01627,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB01629,BE0000537,Thyroxine-binding globulin,Humans,no
+DB01645,BE0000337,Transthyretin,Humans,unknown
+DB01685,BE0000530,Albumin,Humans,unknown
+DB01685,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB01751,BE0000337,Transthyretin,Humans,unknown
+DB01838,BE0000337,Transthyretin,Humans,unknown
+DB01914,BE0000530,Albumin,Humans,unknown
+DB02074,BE0003998,"Fatty acid-binding protein, liver",Humans,unknown
+DB02080,BE0000643,Alpha-tocopherol transfer protein,Humans,unknown
+DB02153,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB02179,BE0000337,Transthyretin,Humans,unknown
+DB02216,BE0003998,"Fatty acid-binding protein, liver",Humans,unknown
+DB02266,BE0000337,Transthyretin,Humans,unknown
+DB02342,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB02417,BE0000337,Transthyretin,Humans,unknown
+DB02659,BE0003998,"Fatty acid-binding protein, liver",Humans,unknown
+DB02698,BE0000337,Transthyretin,Humans,unknown
+DB02709,BE0000337,Transthyretin,Humans,unknown
+DB02709,BE0000530,Albumin,Humans,unknown
+DB02776,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB02901,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB03009,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB03017,BE0000530,Albumin,Humans,unknown
+DB03167,BE0000337,Transthyretin,Humans,unknown
+DB03193,BE0001201,"Fatty acid-binding protein, heart",Humans,unknown
+DB03193,BE0000530,Albumin,Humans,unknown
+DB03239,BE0000337,Transthyretin,Humans,unknown
+DB03346,BE0000337,Transthyretin,Humans,unknown
+DB03585,BE0000530,Albumin,Humans,unknown
+DB03600,BE0000530,Albumin,Humans,no
+DB03682,BE0000337,Transthyretin,Humans,unknown
+DB03766,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB03796,BE0000530,Albumin,Humans,unknown
+DB03796,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB03796,BE0001984,Fatty acid-binding protein 5,Humans,unknown
+DB03796,BE0001201,"Fatty acid-binding protein, heart",Humans,unknown
+DB03796,BE0003591,"Fatty acid-binding protein, intestinal",Humans,unknown
+DB03851,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB03882,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB03917,BE0000314,Retinol-binding protein 4,Humans,unknown
+DB03926,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB04216,BE0000530,Albumin,Humans,unknown
+DB04224,BE0001201,"Fatty acid-binding protein, heart",Humans,unknown
+DB04224,BE0003998,"Fatty acid-binding protein, liver",Humans,unknown
+DB04224,BE0000530,Albumin,Humans,unknown
+DB04224,BE0001141,Vitamin D-binding protein,Humans,unknown
+DB04224,BE0001821,"Fatty acid-binding protein, brain",Humans,unknown
+DB04224,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB04437,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB04474,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB04474,BE0000337,Transthyretin,Humans,unknown
+DB04539,BE0000530,Albumin,Humans,unknown
+DB04557,BE0003591,"Fatty acid-binding protein, intestinal",Humans,no
+DB04557,BE0000530,Albumin,Humans,no
+DB04557,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB04574,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB04574,BE0000530,Albumin,Humans,unknown
+DB04674,BE0000337,Transthyretin,Humans,unknown
+DB04690,BE0000530,Albumin,Humans,unknown
+DB04711,BE0000530,Albumin,Humans,unknown
+DB04756,BE0000337,Transthyretin,Humans,unknown
+DB04816,BE0000530,Albumin,Humans,unknown
+DB04821,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB04828,BE0000530,Albumin,Humans,unknown
+DB04847,BE0000530,Albumin,Humans,unknown
+DB04854,BE0000530,Albumin,Humans,unknown
+DB04855,BE0000530,Albumin,Humans,no
+DB04861,BE0000530,Albumin,Humans,unknown
+DB04911,BE0000530,Albumin,Humans,unknown
+DB04942,BE0000508,Cellular retinoic acid-binding protein 1,Humans,unknown
+DB04951,BE0000530,Albumin,Humans,unknown
+DB05076,BE0000314,Retinol-binding protein 4,Humans,unknown
+DB05134,BE0000530,Albumin,Humans,unknown
+DB05187,BE0000530,Albumin,Humans,unknown
+DB05235,BE0000337,Transthyretin,Humans,unknown
+DB05235,BE0000537,Thyroxine-binding globulin,Humans,unknown
+DB05239,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB05260,BE0000510,Serotransferrin,Humans,unknown
+DB05294,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB05294,BE0000530,Albumin,Humans,unknown
+DB05352,BE0000337,Transthyretin,Humans,unknown
+DB05382,BE0000530,Albumin,Humans,unknown
+DB05382,BE0009873,Thyroglobulin,Humans,unknown
+DB05521,BE0000530,Albumin,Humans,no
+DB05521,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB05688,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB05812,BE0000530,Albumin,Humans,unknown
+DB05812,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB05948,BE0003449,Apolipoprotein A-I,Humans,unknown
+DB06119,BE0000530,Albumin,Humans,unknown
+DB06150,BE0000530,Albumin,Humans,unknown
+DB06151,BE0000530,Albumin,Humans,unknown
+DB06201,BE0000530,Albumin,Humans,unknown
+DB06209,BE0000530,Albumin,Humans,unknown
+DB06215,BE0000510,Serotransferrin,Humans,no
+DB06216,BE0000530,Albumin,Humans,unknown
+DB06216,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB06234,BE0000530,Albumin,Humans,no
+DB06234,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB06237,BE0000530,Albumin,Humans,unknown
+DB06237,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB06282,BE0000530,Albumin,Humans,unknown
+DB06288,BE0010007,Erythrocyte,Humans,no
+DB06290,BE0000530,Albumin,Humans,no
+DB06412,BE0000530,Albumin,Humans,unknown
+DB06412,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB06480,BE0000530,Albumin,Humans,unknown
+DB06636,BE0000530,Albumin,Humans,no
+DB06655,BE0000530,Albumin,Humans,unknown
+DB06695,BE0000530,Albumin,Humans,unknown
+DB06705,BE0000530,Albumin,Humans,unknown
+DB06710,BE0000530,Albumin,Humans,unknown
+DB06710,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB06716,BE0000530,Albumin,Humans,unknown
+DB06755,BE0004020,Very low-density lipoprotein receptor,Humans,no
+DB06755,BE0000301,Retinol-binding protein 1,Humans,no
+DB06755,BE0000505,Retinol-binding protein 2,Humans,no
+DB06755,BE0000255,Retinol-binding protein 3,Humans,no
+DB06755,BE0000314,Retinol-binding protein 4,Humans,no
+DB06755,BE0000682,Retinol-binding protein 5,Humans,no
+DB06757,BE0000510,Serotransferrin,Humans,unknown
+DB06757,BE0000530,Albumin,Humans,unknown
+DB06757,BE0001140,Ceruloplasmin,Humans,unknown
+DB06772,BE0000530,Albumin,Humans,unknown
+DB06772,BE0000499,Low-density lipoprotein receptor,Humans,unknown
+DB06772,BE0004020,Very low-density lipoprotein receptor,Humans,unknown
+DB06772,BE0010226,Glycosylphosphatidylinositol-anchored high density lipoprotein-binding protein 1,Humans,unknown
+DB06784,BE0000510,Serotransferrin,Humans,no
+DB06784,BE0000994,Lactotransferrin,Humans,no
+DB06784,BE0000085,Ferritin light chain,Humans,no
+DB06784,BE0000399,Ferritin heavy chain,Humans,no
+DB06796,BE0000910,Alpha-2-macroglobulin,Humans,unknown
+DB06796,BE0000530,Albumin,Humans,unknown
+DB06813,BE0000530,Albumin,Humans,no
+DB06885,BE0000337,Transthyretin,Humans,unknown
+DB06907,BE0000337,Transthyretin,Humans,unknown
+DB06935,BE0000337,Transthyretin,Humans,unknown
+DB06985,BE0000314,Retinol-binding protein 4,Humans,unknown
+DB07047,BE0000337,Transthyretin,Humans,unknown
+DB07176,BE0000337,Transthyretin,Humans,unknown
+DB07201,BE0000337,Transthyretin,Humans,unknown
+DB07240,BE0000337,Transthyretin,Humans,unknown
+DB07282,BE0000337,Transthyretin,Humans,unknown
+DB07283,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB07402,BE0000530,Albumin,Humans,unknown
+DB07517,BE0000530,Albumin,Humans,unknown
+DB07565,BE0000530,Albumin,Humans,unknown
+DB07693,BE0000337,Transthyretin,Humans,unknown
+DB07694,BE0000337,Transthyretin,Humans,unknown
+DB07695,BE0000337,Transthyretin,Humans,unknown
+DB07753,BE0000337,Transthyretin,Humans,unknown
+DB07775,BE0000337,Transthyretin,Humans,unknown
+DB07945,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB07962,BE0000337,Transthyretin,Humans,unknown
+DB07963,BE0000337,Transthyretin,Humans,unknown
+DB07992,BE0000530,Albumin,Humans,unknown
+DB08100,BE0000337,Transthyretin,Humans,unknown
+DB08101,BE0000337,Transthyretin,Humans,unknown
+DB08102,BE0000337,Transthyretin,Humans,unknown
+DB08103,BE0000337,Transthyretin,Humans,unknown
+DB08104,BE0000337,Transthyretin,Humans,unknown
+DB08127,BE0000782,Cellular retinoic acid-binding protein 2,Humans,unknown
+DB08205,BE0000337,Transthyretin,Humans,unknown
+DB08206,BE0000337,Transthyretin,Humans,unknown
+DB08207,BE0000337,Transthyretin,Humans,unknown
+DB08231,BE0000530,Albumin,Humans,unknown
+DB08231,BE0003591,"Fatty acid-binding protein, intestinal",Humans,unknown
+DB08231,BE0004245,Apolipoprotein M,Humans,unknown
+DB08455,BE0000782,Cellular retinoic acid-binding protein 2,Humans,unknown
+DB08467,BE0000782,Cellular retinoic acid-binding protein 2,Humans,unknown
+DB08496,BE0000530,Albumin,Humans,unknown
+DB08607,BE0001194,"Fatty acid-binding protein, adipocyte",Humans,unknown
+DB08735,BE0000530,Albumin,Humans,unknown
+DB08736,BE0000530,Albumin,Humans,unknown
+DB08804,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB08814,BE0000530,Albumin,Humans,no
+DB08816,BE0000530,Albumin,Humans,unknown
+DB08820,BE0000530,Albumin,Humans,no
+DB08820,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB08822,BE0000530,Albumin,Humans,no
+DB08828,BE0000530,Albumin,Humans,unknown
+DB08828,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB08860,BE0000530,Albumin,Humans,unknown
+DB08860,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB08864,BE0000530,Albumin,Humans,no
+DB08865,BE0000530,Albumin,Humans,unknown
+DB08865,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB08867,BE0000530,Albumin,Humans,no
+DB08867,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB08877,BE0000530,Albumin,Humans,unknown
+DB08881,BE0000530,Albumin,Humans,unknown
+DB08881,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB08893,BE0000530,Albumin,Humans,no
+DB08893,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB08895,BE0000530,Albumin,Humans,unknown
+DB08899,BE0000530,Albumin,Humans,no
+DB08903,BE0000530,Albumin,Humans,no
+DB08903,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB08906,BE0000209,Corticosteroid-binding globulin,Humans,no
+DB08906,BE0000530,Albumin,Humans,no
+DB08906,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB08907,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB08912,BE0000530,Albumin,Humans,no
+DB08930,BE0000530,Albumin,Humans,no
+DB08930,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB08931,BE0000530,Albumin,Humans,unknown
+DB08931,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB08932,BE0000530,Albumin,Humans,no
+DB08932,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB08936,BE0000530,Albumin,Humans,unknown
+DB08984,BE0000537,Thyroxine-binding globulin,Humans,no
+DB08995,BE0000530,Albumin,Humans,unknown
+DB09053,BE0000530,Albumin,Humans,no
+DB09053,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB09069,BE0000530,Albumin,Humans,unknown
+DB09070,BE0000530,Albumin,Humans,unknown
+DB09073,BE0000530,Albumin,Humans,no
+DB09074,BE0000530,Albumin,Humans,unknown
+DB09074,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB09076,BE0000530,Albumin,Humans,no
+DB09076,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB09079,BE0000530,Albumin,Humans,unknown
+DB09087,BE0000530,Albumin,Humans,unknown
+DB09093,BE0000530,Albumin,Humans,no
+DB09100,BE0000530,Albumin,Humans,unknown
+DB09100,BE0000337,Transthyretin,Humans,unknown
+DB09100,BE0000537,Thyroxine-binding globulin,Humans,unknown
+DB09124,BE0000530,Albumin,Humans,no
+DB09124,BE0000685,Sex hormone-binding globulin,Humans,no
+DB09124,BE0000209,Corticosteroid-binding globulin,Humans,no
+DB09128,BE0000530,Albumin,Humans,no
+DB09128,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB09130,BE0000530,Albumin,Humans,no
+DB09130,BE0000910,Alpha-2-macroglobulin,Humans,no
+DB09130,BE0001140,Ceruloplasmin,Humans,no
+DB09130,BE0002833,Copper transport protein ATOX1,Humans,no
+DB09130,BE0005815,Copper chaperone for superoxide dismutase,Humans,no
+DB09130,BE0008686,Cytochrome c oxidase copper chaperone,Humans,no
+DB09130,BE0008687,Hephaestin,Humans,no
+DB09130,BE0000041,Coagulation factor V,Humans,no
+DB09130,BE0000016,Coagulation factor VIII,Humans,no
+DB09130,BE0008688,Metallothionein,Humans,no
+DB09139,BE0000530,Albumin,Humans,no
+DB09140,BE0000629,Hemoglobin subunit beta,Humans,unknown
+DB09140,BE0000130,Hemoglobin subunit alpha,Humans,unknown
+DB09160,BE0001032,ATP-dependent translocase ABCB1,Humans,no
+DB09195,BE0000530,Albumin,Humans,no
+DB09204,BE0000530,Albumin,Humans,no
+DB09204,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB09213,BE0000530,Albumin,Humans,no
+DB09223,BE0000530,Albumin,Humans,no
+DB09229,BE0000530,Albumin,Humans,no
+DB09229,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB09236,BE0000530,Albumin,Humans,unknown
+DB09236,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB09237,BE0000530,Albumin,Humans,unknown
+DB09241,BE0000530,Albumin,Humans,unknown
+DB09256,BE0000537,Thyroxine-binding globulin,Humans,no
+DB09262,BE0000530,Albumin,Humans,no
+DB09262,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB09270,BE0000499,Low-density lipoprotein receptor,Humans,no
+DB09270,BE0004020,Very low-density lipoprotein receptor,Humans,no
+DB09274,BE0000530,Albumin,Humans,unknown
+DB09280,BE0000530,Albumin,Humans,no
+DB09299,BE0000530,Albumin,Humans,no
+DB09317,BE0000537,Thyroxine-binding globulin,Humans,no
+DB09318,BE0000537,Thyroxine-binding globulin,Humans,unknown
+DB09329,BE0001043,von Willebrand factor,Humans,unknown
+DB09333,BE0000530,Albumin,Humans,no
+DB09347,BE0000530,Albumin,Humans,no
+DB09348,BE0000530,Albumin,Humans,no
+DB09381,BE0000537,Thyroxine-binding globulin,Humans,no
+DB09383,BE0000530,Albumin,Humans,unknown
+DB09418,BE0000530,Albumin,Humans,unknown
+DB09526,BE0000530,Albumin,Humans,unknown
+DB09555,BE0003648,Solute carrier family 22 member 1,Humans,unknown
+DB09555,BE0003647,Solute carrier family 22 member 2,Humans,unknown
+DB09564,BE0000530,Albumin,Humans,no
+DB09568,BE0000935,Phosphatidylcholine transfer protein,Humans,no
+DB09568,BE0001179,Phosphatidylethanolamine-binding protein 1,Humans,no
+DB11093,BE0008690,Calbindin,Humans,no
+DB11093,BE0004083,Protein S100-G,Humans,no
+DB11093,BE0000530,Albumin,Humans,no
+DB11100,BE0000537,Thyroxine-binding globulin,Humans,no
+DB11130,BE0000530,Albumin,Humans,no
+DB11130,BE0003777,Beta-2-microglobulin,Humans,no
+DB11134,BE0000530,Albumin,Humans,unknown
+DB11134,BE0001140,Ceruloplasmin,Humans,unknown
+DB11136,BE0000510,Serotransferrin,Humans,unknown
+DB11148,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB11148,BE0000530,Albumin,Humans,no
+DB11182,BE0000530,Albumin,Humans,unknown
+DB11182,BE0000994,Lactotransferrin,Humans,unknown
+DB11182,BE0000510,Serotransferrin,Humans,unknown
+DB11217,BE0000530,Albumin,Humans,unknown
+DB11221,BE0009358,Alpha-fetoprotein,Rat,unknown
+DB11251,BE0004020,Very low-density lipoprotein receptor,Humans,no
+DB11251,BE0000499,Low-density lipoprotein receptor,Humans,no
+DB11348,BE0008690,Calbindin,Humans,no
+DB11348,BE0004083,Protein S100-G,Humans,no
+DB11348,BE0000530,Albumin,Humans,no
+DB11397,BE0000530,Albumin,Humans,unknown
+DB11575,BE0000530,Albumin,Humans,no
+DB11575,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB11590,BE0000530,Albumin,Humans,unknown
+DB11637,BE0000530,Albumin,Humans,unknown
+DB11637,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB11641,BE0000530,Albumin,Humans,no
+DB11641,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB11642,BE0000530,Albumin,Humans,no
+DB11642,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB11677,BE0000530,Albumin,Humans,unknown
+DB11689,BE0000530,Albumin,Humans,unknown
+DB11689,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB11703,BE0000530,Albumin,Humans,unknown
+DB11703,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB11718,BE0000530,Albumin,Humans,no
+DB11739,BE0000530,Albumin,Humans,unknown
+DB11739,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB11751,BE0000530,Albumin,Humans,unknown
+DB11753,BE0000530,Albumin,Humans,no
+DB11757,BE0000530,Albumin,Humans,unknown
+DB11757,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB11793,BE0000530,Albumin,Humans,unknown
+DB11796,BE0000530,Albumin,Humans,unknown
+DB11800,BE0000530,Albumin,Humans,unknown
+DB11820,BE0000530,Albumin,Humans,unknown
+DB11827,BE0000530,Albumin,Humans,no
+DB11828,BE0000530,Albumin,Humans,no
+DB11828,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB11853,BE0000530,Albumin,Humans,unknown
+DB11853,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB11855,BE0000530,Albumin,Humans,no
+DB11886,BE0010065,Apolipoproteins,Humans,no
+DB11901,BE0000530,Albumin,Humans,no
+DB11943,BE0000530,Albumin,Humans,no
+DB11963,BE0000530,Albumin,Humans,no
+DB11967,BE0000530,Albumin,Humans,no
+DB11978,BE0000530,Albumin,Humans,no
+DB11978,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB12001,BE0000530,Albumin,Humans,unknown
+DB12001,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB12005,BE0000530,Albumin,Humans,no
+DB12005,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB12095,BE0001067,Broad substrate specificity ATP-binding cassette transporter ABCG2,Humans,no
+DB12141,BE0000530,Albumin,Humans,no
+DB12147,BE0004879,alpha1-acid glycoprotein,Humans,no
+DB12235,BE0000530,Albumin,Humans,unknown
+DB12235,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB12243,BE0000530,Albumin,Humans,no
+DB12255,BE0000530,Albumin,Humans,unknown
+DB12404,BE0000530,Albumin,Humans,unknown
+DB12425,BE0000537,Thyroxine-binding globulin,Humans,no
+DB12455,BE0000530,Albumin,Humans,unknown
+DB12466,BE0000530,Albumin,Humans,unknown
+DB12466,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB12471,BE0000530,Albumin,Humans,unknown
+DB12483,BE0000530,Albumin,Humans,unknown
+DB12674,BE0000530,Albumin,Humans,unknown
+DB12674,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB12836,BE0000530,Albumin,Humans,no
+DB12874,BE0000530,Albumin,Humans,no
+DB12941,BE0000530,Albumin,Humans,unknown
+DB12978,BE0000530,Albumin,Humans,unknown
+DB12978,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB13014,BE0000530,Albumin,Humans,unknown
+DB13310,BE0000530,Albumin,Humans,unknown
+DB13396,BE0000537,Thyroxine-binding globulin,Humans,no
+DB13421,BE0000530,Albumin,Humans,no
+DB13514,BE0000530,Albumin,Humans,no
+DB13751,BE0000438,Aldo-keto reductase family 1 member C4,Humans,no
+DB13751,BE0000592,Aldo-keto reductase family 1 member C3,Humans,no
+DB13751,BE0000622,Aldo-keto reductase family 1 member C2,Humans,no
+DB13751,BE0000530,Albumin,Humans,no
+DB13867,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB13867,BE0001032,ATP-dependent translocase ABCB1,Humans,no
+DB13867,BE0001004,Solute carrier organic anion transporter family member 1B1,Humans,no
+DB13874,BE0000530,Albumin,Humans,no
+DB13909,BE0000530,Albumin,Humans,unknown
+DB13928,BE0000530,Albumin,Humans,no
+DB13943,BE0000530,Albumin,Humans,no
+DB13943,BE0000685,Sex hormone-binding globulin,Humans,no
+DB13944,BE0000530,Albumin,Humans,no
+DB13944,BE0000685,Sex hormone-binding globulin,Humans,no
+DB13946,BE0000530,Albumin,Humans,no
+DB13946,BE0000685,Sex hormone-binding globulin,Humans,no
+DB13949,BE0000510,Serotransferrin,Humans,unknown
+DB13949,BE0001155,Integrin beta-3,Humans,unknown
+DB13949,BE0002109,Calreticulin,Humans,unknown
+DB13951,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB13952,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB13952,BE0000530,Albumin,Humans,no
+DB13952,BE0003591,"Fatty acid-binding protein, intestinal",Humans,no
+DB13953,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB13953,BE0000530,Albumin,Humans,no
+DB13953,BE0003591,"Fatty acid-binding protein, intestinal",Humans,no
+DB13954,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB13954,BE0000530,Albumin,Humans,no
+DB13954,BE0003591,"Fatty acid-binding protein, intestinal",Humans,no
+DB13955,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB13955,BE0000530,Albumin,Humans,no
+DB13955,BE0003591,"Fatty acid-binding protein, intestinal",Humans,no
+DB13956,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB13956,BE0000530,Albumin,Humans,no
+DB13956,BE0003591,"Fatty acid-binding protein, intestinal",Humans,no
+DB13959,BE0000530,Albumin,Humans,unknown
+DB14001,BE0000643,Alpha-tocopherol transfer protein,Humans,unknown
+DB14002,BE0000643,Alpha-tocopherol transfer protein,Humans,unknown
+DB14003,BE0004020,Very low-density lipoprotein receptor,Humans,no
+DB14003,BE0000499,Low-density lipoprotein receptor,Humans,no
+DB14007,BE0000952,Alpha-1-antitrypsin,Humans,no
+DB14126,BE0000530,Albumin,Humans,no
+DB14185,BE0000530,Albumin,Humans,unknown
+DB14481,BE0008690,Calbindin,Humans,no
+DB14481,BE0004083,Protein S100-G,Humans,no
+DB14481,BE0000530,Albumin,Humans,no
+DB14513,BE0000530,Albumin,Humans,unknown
+DB14517,BE0000530,Albumin,Humans,unknown
+DB14518,BE0000530,Albumin,Humans,unknown
+DB14520,BE0000510,Serotransferrin,Humans,unknown
+DB14520,BE0001155,Integrin beta-3,Humans,unknown
+DB14520,BE0002109,Calreticulin,Humans,unknown
+DB14526,BE0000510,Serotransferrin,Humans,unknown
+DB14527,BE0000510,Serotransferrin,Humans,unknown
+DB14528,BE0000510,Serotransferrin,Humans,unknown
+DB14529,BE0000510,Serotransferrin,Humans,unknown
+DB14530,BE0000510,Serotransferrin,Humans,unknown
+DB14533,BE0000530,Albumin,Humans,unknown
+DB14538,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB14538,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB14539,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB14539,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB14540,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB14540,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB14541,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB14541,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB14542,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB14542,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB14543,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB14543,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB14544,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB14544,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB14548,BE0000530,Albumin,Humans,unknown
+DB14582,BE0000530,Albumin,Humans,unknown
+DB14582,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB14631,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB14631,BE0000530,Albumin,Humans,unknown
+DB14649,BE0000530,Albumin,Humans,unknown
+DB14669,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB14669,BE0000530,Albumin,Humans,unknown
+DB14840,BE0000530,Albumin,Humans,unknown
+DB14840,BE0004879,alpha1-acid glycoprotein,Humans,unknown
+DB14879,BE0000530,Albumin,Humans,no
+DB14973,BE0000530,Albumin,Humans,no
+DB14999,BE0000530,Albumin,Humans,unknown
+DB15059,BE0000530,Albumin,Humans,no
+DB15093,BE0000530,Albumin,Humans,unknown
+DB15133,BE0000530,Albumin,Humans,unknown
+DB15133,BE0000925,Alpha-1-acid glycoprotein 1,Humans,unknown
+DB15149,BE0000530,Albumin,Humans,no
+DB15149,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB15171,BE0000530,Albumin,Humans,unknown
+DB15248,BE0000530,Albumin,Humans,unknown
+DB15305,BE0000530,Albumin,Humans,unknown
+DB15444,BE0000530,Albumin,Humans,unknown
+DB15456,BE0000530,Albumin,Humans,unknown
+DB15534,BE0000530,Albumin,Humans,unknown
+DB15566,BE0000209,Corticosteroid-binding globulin,Humans,unknown
+DB15566,BE0000530,Albumin,Humans,unknown
+DB15575,BE0000530,Albumin,Humans,unknown
+DB15690,BE0000685,Sex hormone-binding globulin,Humans,unknown
+DB15690,BE0000530,Albumin,Humans,unknown
+DB15935,BE0000530,Albumin,Humans,no
+DB16165,BE0000530,Albumin,Humans,unknown
+DB16200,BE0000925,Alpha-1-acid glycoprotein 1,Humans,yes
+DB16200,BE0000530,Albumin,Humans,no
+DB16693,BE0000530,Albumin,Humans,no
+DB16699,BE0000530,Albumin,Humans,unknown
+DB16703,BE0000530,Albumin,Humans,no
+DB16703,BE0000925,Alpha-1-acid glycoprotein 1,Humans,no
+DB17083,BE0000530,Albumin,Humans,no
+DB18515,BE0000530,Albumin,Humans,no

@@ -1,0 +1,212 @@
+drugbank_id,protein_name,gene_symbol,description
+DB00002,Low affinity immunoglobulin gamma Fc region receptor II-a,FCGR2A,Patients with this genotype may have increased progression-free survival time when using cetuximab to treat colorectal cancer.
+DB00002,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,Patients with this genotype have increased progression-free survival time when using cetuximab to treat colorectal cancer.
+DB00008,Interferon lambda-3,IFNL3,Patients with this genotype in IFNL3 have a reduced likelihood of achieving sustained virologic response to peginterferon alfa-2a therapy.
+DB00022,Interferon lambda-3,IFNL3,Patients with this genotype in IFNL3 have a reduced likelihood of achieving sustained virologic response to peginterferon alfa-2b therapy.
+DB00065,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,Patients with this genotype have increased ACR20 response when using infliximab to treat rheumatoid arthritis.
+DB00073,Low affinity immunoglobulin gamma Fc region receptor III-A,FCGR3A,"Patients with this genotype have increased frequency of anti-tumor response when using rituximab to treat diffuse large B-cell lymphoma, follicular lymphoma, or [follicular non-Hodgkin lymphoma]."
+DB00175,Kinesin-like protein KIF6,KIF6,Patients with this genotype have a greater reduction in risk of a major cardiovascular event with high dose pravastatin.
+DB00175,3-hydroxy-3-methylglutaryl-coenzyme A reductase,HMGCR,Patients with this genotype have a lesser reduction in LDL cholesterol with pravastatin.
+DB00176,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of fluvoxamine.
+DB00176,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of fluvoxamine.
+DB00176,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of fluvoxamine.
+DB00176,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of fluvoxamine.
+DB00176,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of fluvoxamine.
+DB00176,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of fluvoxamine.
+DB00178,Angiotensin-converting enzyme,ACE,Patients with this genotype have a shorter time to lowering of blood pressure with ramipril
+DB00203,Angiotensin-converting enzyme,ACE,Patients with this genotype have increased frequency of positive erectile response when using sildenafil to treat erectile dysfunction
+DB00203,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3,GNB3,Patients with this genotype have increased frequency of positive erectile response when using sildenafil to treat erectile dysfunction
+DB00215,Multidrug resistance protein 1,ABCB1,Patients with this genotype have an increased likelihood of remission when using citalopram to treat major depressive disorder
+DB00215,5-hydroxytryptamine receptor 2A,HTR2A,Patients with this genotype have an increased likelihood of responding to citalopram when treating major depressive disorder
+DB00215,"Glutamate receptor ionotropic, kainate 4",GRIK4,Patients with this genotype have an increased likelihood of responding to citalopram when treating major depressive disorder
+DB00216,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3,GNB3,Patients with this genotype have an increased likelihood of responding to elitriptan when treating (condition: cluster headache).
+DB00252,Cytochrome P450 2C9,CYP2C9,Patients with this genotype have reduced metabolism of phenytoin.
+DB00264,Beta-1 adrenergic receptor,ADRB1,Patients with this genotype have a greater reduction in blood pressure with metoprolol.
+DB00264,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of metoprolol.
+DB00264,Beta-1 adrenergic receptor,ADRB1,Patients with this genotype have a greater reduction in blood pressure with metoprolol.
+DB00277,Cytochrome P450 1A2,CYP1A2,Patients with this genotype have reduced metabolism of theophylline.
+DB00285,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of venlafaxine.
+DB00285,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of venlafaxine.
+DB00285,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of venlafaxine.
+DB00285,Multidrug resistance protein 1,ABCB1,Patients with this genotype have an increased likelihood of remission when using venlafaxine to treat major depressive disorder
+DB00285,Multidrug resistance protein 1,ABCB1,Patients with this genotype have increased risk of adverse events with venlafaxine
+DB00289,Cytochrome P450 2D6,CYP2D6,The presence of this genotype in CYP2D6 may be associated with reduced metabolism of atomoxetine and more frequent occurrence of adverse events.
+DB00289,Cytochrome P450 2D6,CYP2D6,The presence of this genotype in CYP2D6 is associated with poor metabolism of atomoxetine and more frequent occurrence of adverse events.
+DB00289,Cytochrome P450 2D6,CYP2D6,The presence of this genotype in CYP2D6 is associated with poor metabolism of atomoxetine and more frequent occurrence of adverse events.
+DB00289,Cytochrome P450 2D6,CYP2D6,The presence of this genotype in CYP2D6 is associated with poor metabolism of atomoxetine and more frequent occurrence of adverse events.
+DB00289,Cytochrome P450 2D6,CYP2D6,The presence of this genotype in CYP2D6 may be associated with reduced metabolism of atomoxetine and more frequent occurrence of adverse events.
+DB00289,Cytochrome P450 2D6,CYP2D6,The presence of this genotype in CYP2D6 may be associated with reduced metabolism of atomoxetine and more frequent occurrence of adverse events.
+DB00290,Bleomycin hydrolase,BLMH,Patients with this genotype have reduced survival time and increased frequency of early relapse when using bleomycin to treat testicular cancer.
+DB00295,Multidrug resistance protein 1,ABCB1,Patients with this genotype may have an increased analgesic response to morphine.
+DB00295,Mu-type opioid receptor,OPRM1,Patients with this genotype may have an increased analgesic response to morphine.
+DB00315,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3,GNB3,Patients with this genotype have an increased likelihood of responding to zolmitriptan when treating (condition: cluster headache).
+DB00317,Epidermal growth factor receptor,EGFR,The presence of this polymorphism in EGFR is associated with a higher response rate to gefitinib.
+DB00317,Epidermal growth factor receptor,EGFR,The presence of this polymorphism in EGFR is associated with a higher response rate to gefitinib.
+DB00317,Epidermal growth factor receptor,EGFR,The presence of this polymorphism in EGFR is associated with a higher response rate to gefitinib.
+DB00318,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of codeine.
+DB00318,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of codeine.
+DB00318,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of codeine.
+DB00318,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 results in non-functioning enzyme variant and may be associated with reduced drug mtabolism or reduced therapeutic response when treated with codeine.
+DB00318,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of codeine.
+DB00318,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of codeine and lack of therapeutic response from codeine.
+DB00318,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of codeine.
+DB00318,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 results in non-functioning enzyme variant and may be associated with reduced therapeutic response when treated with codeine.
+DB00318,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 results in non-functioning enzyme variant and may be associated with reduced therapeutic response when treated with codeine.
+DB00321,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of amitriptyline.
+DB00321,Multidrug resistance protein 1,ABCB1,Patients with this genotype have an increased likelihood of remission when using amitriptyline to treat major depressive disorder
+DB00321,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of amitriptyline.
+DB00321,Multidrug resistance protein 1,ABCB1,Patients with this genotype have increased risk of adverse events with amitriptyline
+DB00321,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of amitriptyline.
+DB00321,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of amitriptyline.
+DB00321,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of amitriptyline.
+DB00321,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of amitriptyline.
+DB00321,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with poor metabolism of amitriptyline.
+DB00321,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with reduced or poor metabolism of amitriptyline.
+DB00321,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of amitriptyline.
+DB00321,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of amitriptyline.
+DB00334,5-hydroxytryptamine receptor 1A,HTR1A,The presence of this polymorphism in HTR1A may indicate a higher level of efficacy in improving negative symptoms of schizophrenia when treated with olanzapine.
+DB00335,Beta-1 adrenergic receptor,ADRB1,Patients with this genotype have a greater reduction in blood pressure with atenolol.
+DB00338,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of omeprazole.
+DB00338,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of omeprazole.
+DB00343,Beta-1 adrenergic receptor,ADRB1,Patients with this genotype require a lower dosage of diltiazem to achieve a favourable rate-control response when treating atrial fibrillation.
+DB00381,Natriuretic peptides A,NPPA,Patients with this genotype have increased risk of adverse cardiovascular outcomes with diuretics.
+DB00448,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of lansoprazole.
+DB00448,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of lansoprazole.
+DB00448,Multidrug resistance protein 1,ABCB1,Patients with this genotype have increased plasma concentration of lansoprazole.
+DB00458,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of imipramine.
+DB00458,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of imipramine.
+DB00458,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of imipramine.
+DB00458,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of imipramine.
+DB00458,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of imipramine.
+DB00458,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with poor metabolism of imipramine.
+DB00458,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with reduced or poor metabolism of imipramine.
+DB00458,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of imipramine.
+DB00458,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of imipramine.
+DB00482,Cytochrome P450 2C9,CYP2C9,Patients with this genotype have reduced metabolism of celecoxib.
+DB00514,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of dextromethorphan.
+DB00514,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of dextromethorphan.
+DB00530,Epidermal growth factor receptor,EGFR,The presence of this polymorphism in EGFR is associated with a higher response rate to erlotinib.
+DB00530,Epidermal growth factor receptor,EGFR,The presence of this polymorphism in EGFR is associated with a higher response rate to erlotinib.
+DB00530,Epidermal growth factor receptor,EGFR,The presence of this polymorphism in EGFR is associated with a higher response rate to erlotinib.
+DB00531,Cytochrome P450 3A4,CYP3A4,Patients with this genotype have reduced metabolism of cyclophosphamide to its active form and reduced disease free survival time when using cyclophosphamide to treat node-positive breast cancer.
+DB00531,Cytochrome P450 2B6,CYP2B6,Patients with this genotype have reduced metabolism of cyclophosphamide to its active form.
+DB00532,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of mephenytoin.
+DB00532,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of mephenytoin.
+DB00532,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of mephenytoin.
+DB00540,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of nortriptyline.
+DB00540,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of nortriptyline.
+DB00540,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of nortriptyline.
+DB00540,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of nortriptyline.
+DB00540,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of nortriptyline.
+DB00540,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of nortriptyline.
+DB00540,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of nortriptyline.
+DB00564,Sodium channel protein type 1 subunit alpha,SCN1A,Patients with this genotype have increased resistance to the anti-epileptic effects of carbamazepine.
+DB00582,Cytochrome P450 2C19,CYP2C19,Patients with this genotype in CYP2C19 are ultra fast metabolizers and require higer doses of voriconazole to attain the therapeutic effect.
+DB00582,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with poor metabolism of voriconazole.
+DB00582,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with reduced or poor metabolism of voriconazole.
+DB00625,Cytochrome P450 2B6,CYP2B6,The presence of this polymorphism in CYP2B6 is associated with reduction in efavirenz metabolism.
+DB00641,Kinesin-like protein KIF6,KIF6,Patients with this genotype have a greater reduction in risk of a major cardiovascular event with high dose simvastatin.
+DB00641,3-hydroxy-3-methylglutaryl-coenzyme A reductase,HMGCR,Patients with this genotype have a lesser reduction in LDL cholesterol with simvastatin.
+DB00661,Beta-1 adrenergic receptor,ADRB1,Patients with this genotype require a lower dosage of verapamil to achieve a favourable rate-control response when treating atrial fibrillation.
+DB00669,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3,GNB3,Patients with this genotype have an increased likelihood of responding to sumatriptan when treating (condition: cluster headache).
+DB00675,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of tamoxifen resulting in reduced plasma concentrations its active form endoxifen.
+DB00682,Cytochrome P450 2C9,CYP2C9,Patients with this genotype have reduced metabolism of warfarin.
+DB00682,Vitamin K epoxide reductase complex subunit 1,VKORC1,Patients with this genotype in VKORC1 are associated with reduced metabolism of warfarin and increased risk of serious bleeding thus require lower doses.
+DB00682,Phylloquinone omega-hydroxylase CYP4F2,CYP4F2,Patients with this genotype in CP4F2 may require higer doses of warfarin to attain therapeutic anticoagulant activity.
+DB00682,Cytochrome P450 2C9,CYP2C9,The presence of this polymorphism in CYP2C9 is associated with reduction in warfarin metabolism.
+DB00682,Cytochrome P450 2C9,CYP2C9,The presence of this polymorphism in CYP2C9 is associated with reduction in warfarin metabolism.
+DB00704,Mu-type opioid receptor,OPRM1,Patients with this genotype have an increased number of abstinent days when using naltrexone to treat alcohol addiction.
+DB00715,Multidrug resistance protein 1,ABCB1,Patients with this genotype have an increased likelihood of remission when using paroxetine to treat major depressive disorder.
+DB00715,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of paroxetine.
+DB00715,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of paroxetine.
+DB00715,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of paroxetine.
+DB00715,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of paroxetine.
+DB00715,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of paroxetine.
+DB00715,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of paroxetine.
+DB00726,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of trimipramine.
+DB00726,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of trimipramine.
+DB00726,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of trimipramine.
+DB00726,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of trimipramine.
+DB00726,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with poor metabolism of trimipramine.
+DB00726,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with reduced or poor metabolism of trimipramine.
+DB00726,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of trimipramine.
+DB00726,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with poor metabolism of trimipramine.
+DB00736,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of esomeprazole.
+DB00736,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of esomeprazole.
+DB00745,Catechol O-methyltransferase,COMT,Patients with this genotype have reduced improvement in vigor and well-being with modafinil.
+DB00745,Catechol O-methyltransferase,COMT,Patients with this genotype have increased improvement in vigor and well-being with modafinil.
+DB00758,Cytochrome P450 2C9,CYP2C9,Patients with this genotype have reduced metabolism of clopidogrel resulting in reduced plasma concentrations of its active metabolite.
+DB00758,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of clopidogrel resulting in reduced plasma concentrations of its active metabolite.
+DB00758,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with reduced or poor metabolism of clopidogrel.
+DB00762,Solute carrier organic anion transporter family member 1B1,SLCO1B1,Patients with this genotype have reduced transport of the active metabolite of irinotecan resulting in increased plasma concentrations.
+DB00811,Interferon lambda-3,IFNL3,Patients with this genotype in IFNL3 have a reduced likelihood of achieving sustained virologic response to ribavirin therapy.
+DB00843,Cytochrome P450 2D6,CYP2D6,Patients with this genotype are have a decreased likelihood of responding to donepezil when treating Alzheimer's disease.
+DB00864,Cytochrome P450 3A5,CYP3A5,Patients with this genotype in CYP3A5 are extensive metabolizers and require higer doses of tacrolimus to attain the therapeutic effect.
+DB00904,Cytochrome P450 2D6,CYP2D6,Patients with this genotype in CYP2D6 are ultrarapid metabolizers with an increased risk of poor therapeutic response and vomiting when treated with ondansteron.
+DB00904,Cytochrome P450 2D6,CYP2D6,Patients with this genotype in CYP2D6 are ultrarapid metabolizers with an increased risk of poor therapeutic response and vomiting when treated with ondansteron.
+DB00918,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3,GNB3,Patients with this genotype have an increased likelihood of responding to almotriptan when treating cluster headache.
+DB00945,Cytochrome P450 2C9,CYP2C9,Patients with this genotype have reduced metabolism of acetylsalicylic acid.
+DB00945,Integrin beta-3,ITGB3,Patients with this genotype have increased resistance to the anti-thrombotic effects of aspirin.
+DB00952,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3,GNB3,Patients with this genotype have an increased likelihood of responding to naratriptan when treating (condition: cluster headache).
+DB00953,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3,GNB3,Patients with this genotype have an increased likelihood of responding to rizatriptan when treating (condition: cluster headache).
+DB00998,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3,GNB3,Patients with this genotype have an increased likelihood of responding to frovatriptan when treating (condition: cluster headache).
+DB01067,Cytochrome P450 2C9,CYP2C9,Patients with this genotype have reduced metabolism of glipizide.
+DB01076,Kinesin-like protein KIF6,KIF6,Patients with this genotype have a greater reduction in risk of a major cardiovascular event with high dose atorvastatin.
+DB01076,3-hydroxy-3-methylglutaryl-coenzyme A reductase,HMGCR,Patients with this genotype have a lesser reduction in LDL cholesterol with atorvastatin.
+DB01076,Cytochrome P450 3A4,CYP3A4,Patients with this genotype have an greater reduction in LDL cholesterol with atorvastatin.
+DB01098,Kinesin-like protein KIF6,KIF6,Patients with this genotype have a greater reduction in risk of a major cardiovascular event with high dose rosuvastatin.
+DB01098,3-hydroxy-3-methylglutaryl-coenzyme A reductase,HMGCR,Patients with this genotype have a lesser reduction in LDL cholesterol with rosuvastatin.
+DB01098,ATP-binding cassette sub-family G member 2,ABCG2,Patients with this genotype have a greater reduction in LDL cholesterol with rosuvastatin.
+DB01104,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with poor metabolism of sertraline.
+DB01104,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with reduced or poor metabolism of sertraline.
+DB01105,Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-3,GNB3,Patients with this genotype will lose weight with sibutramine.
+DB01120,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with reduction in gliclazide metabolism.
+DB01120,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with reduction in gliclazide metabolism.
+DB01124,Cytochrome P450 2C9,CYP2C9,Patients with this genotype have reduced metabolism of tolbutamide.
+DB01131,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of proguanil.
+DB01131,Cytochrome P450 2C19,CYP2C19,Patients with this genotype have reduced metabolism of proguanil.
+DB01136,Beta-1 adrenergic receptor,ADRB1,Patients with this genotype in ADRB1 have an increased likelihood of responding to carvedilol for the treatment of increased blood pressure.
+DB01142,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of doxepin.
+DB01142,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of doxepin.
+DB01142,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of doxepin.
+DB01142,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of doxepin.
+DB01142,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with poor metabolism of doxepin.
+DB01142,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with reduced or poor metabolism of doxepin.
+DB01142,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of doxepin.
+DB01142,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of doxepin.
+DB01151,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of desipramine.
+DB01151,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of desipramine.
+DB01151,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of desipramine.
+DB01151,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of desipramine.
+DB01151,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of desipramine.
+DB01151,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of desipramine.
+DB01151,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of desipramine.
+DB01156,D(2) dopamine receptor,DRD2,The presence of this genotype in DRD2 is associated with improved therapeutic response to bupropion.
+DB01175,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with poor metabolism of escitalopram.
+DB01175,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with reduced or poor metabolism of escitalopram.
+DB01222,T-box transcription factor TBX21,TBX21,The presence of this polymorphism in TBX21 may be associated with improved responsiveness to budenoside for the treatment of asthma.
+DB01233,Potassium voltage-gated channel subfamily H member 2,KCNH2,The presence of this polymorphism in KCNH2 may be associated with increased clinical efficacy with metoclopramide.
+DB01233,Alpha-1D adrenergic receptor,ADRA1D,The presence of this polymorphism in ADRA1D may be associated with increased clinical efficacy with metoclopramide.
+DB01233,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of metoclopramide.
+DB01233,Multidrug resistance protein 1,ABCB1,Patients with this polymorphism in ABCB1 may have a reduced response to clomipramine.
+DB01242,Cytochrome P450 2D6,CYP2D6,Patients with this genotype have reduced metabolism of clomipramine.
+DB01242,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of clomipramine.
+DB01242,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of clomipramine.
+DB01242,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of clomipramine.
+DB01242,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of clomipramine.
+DB01242,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with poor metabolism of clomipramine.
+DB01242,Cytochrome P450 2C19,CYP2C19,The presence of this polymorphism in CYP2C19 is associated with reduced or poor metabolism of clomipramine.
+DB01242,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of clomipramine.
+DB01242,Cytochrome P450 2D6,CYP2D6,The presence of this polymorphism in CYP2D6 is associated with reduced or poor metabolism of clomipramine.
+DB01418,Cytochrome P450 2C9,CYP2C9,The presence of this polymorphism in CYP2C9 is associated with reduction in acenocoumarol metabolism.
+DB01418,Cytochrome P450 2C9,CYP2C9,The presence of this polymorphism in CYP2C9 is associated with reduction in acenocoumarol metabolism.
+DB01418,Cytochrome P450 2C9,CYP2C9,Patients with this polymorphism in CYP2C9 may be at a higher risk of developing drug-related hemorrhage or thrombosis when treated with acenocoumarol.
+DB01418,Cytochrome P450 2C9,CYP2C9,Patients with this polymorphism in CYP2C9 may be at a higher risk of developing drug-related hemorrhage or thrombosis when treated with acenocoumarol.
+DB08820,Cystic fibrosis transmembrane conductance regulator,CFTR,Patients who carry this polymorphism in CFTR will respond to ivacaftor therapy.
+DB08916,Epidermal growth factor receptor,EGFR,The presence of this polymorphism in EGFR is associated with a higher response rate to afatinib.
+DB08916,Epidermal growth factor receptor,EGFR,The presence of this polymorphism in EGFR is associated with a higher response rate to afatinib.
+DB08916,Epidermal growth factor receptor,EGFR,The presence of this polymorphism in EGFR is associated with a higher response rate to afatinib.
+DB08922,5-hydroxytryptamine receptor 1A,HTR1A,The presence of this polymorphism in HTR1A may indicate a higher level of efficacy in improving negative symptoms of schizophrenia when treated with perospirone.
+DB08930,UDP-glucuronosyltransferase 1-1,UGT1A1,Poor drug metabolizer.
+DB08930,UDP-glucuronosyltransferase 1-1,UGT1A1,The presence of this polymorphism in UGT1A1 is associated with reduction in dolutegravir metabolism.
+DB08930,UDP-glucuronosyltransferase 1-1,UGT1A1,The presence of this polymorphism in UGT1A1 is associated with reduction in dolutegravir metabolism.
