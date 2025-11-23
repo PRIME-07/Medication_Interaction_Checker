@@ -1,3 +1,19 @@
-DrugBank_data/drugbank_all_full_database/full_database.xml
+Raw_DrugBank_data/drugbank_all_full_database/full_database.xml
 
 requirements.txt
+.vscode
+
+# Logs
+frontend/logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+frontend/*.local
+
