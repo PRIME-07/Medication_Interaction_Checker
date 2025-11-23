@@ -17,3 +17,6 @@ frontend/dist
 frontend/dist-ssr
 frontend/*.local
 
+ngrok.md
+
+app/node_modules/
