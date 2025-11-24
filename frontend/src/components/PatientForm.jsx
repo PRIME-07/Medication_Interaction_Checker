@@ -18,22 +18,23 @@ export default function PatientForm({ patient, onChange }) {
         <label className="block text-[10px] font-bold mb-1.5 text-gray-500 uppercase tracking-wider">Age</label>
         <input 
           type="number" 
-          value={patient.age} 
+          value={patient.age ?? ""} 
           onChange={handleAgeChange}
           className="w-full bg-dark-900 border border-dark-700 rounded-lg px-3 py-2.5 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all text-white text-sm placeholder-gray-600 hover:border-dark-600"
           min="0"
           max="120"
-          placeholder="65"
+          placeholder="Age"
         />
       </div>
       <div>
         <label className="block text-[10px] font-bold mb-1.5 text-gray-500 uppercase tracking-wider">Gender</label>
         <div className="relative">
           <select 
-            value={patient.gender}
+            value={patient.gender ?? ""}
             onChange={(e) => onChange({...patient, gender: e.target.value})}
             className="w-full bg-dark-900 border border-dark-700 rounded-lg px-3 py-2.5 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all text-white text-sm appearance-none cursor-pointer hover:border-dark-600"
           >
+            <option value="" disabled>Select gender</option>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
           </select>

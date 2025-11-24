@@ -36,18 +36,18 @@ export default function ReportView({ data }) {
   };
 
   return (
-    <div className="space-y-8 animate-fade-in">
+    <div className="space-y-8 animate-fade-in w-full max-w-full overflow-x-hidden">
       
       {/* 1. Summary Status Header */}
-      <div className={`p-6 rounded-xl border flex items-start gap-4 ${
+      <div className={`p-4 sm:p-6 rounded-xl border flex flex-col sm:flex-row sm:items-start gap-4 w-full max-w-full ${
         interactionCount > 0 
           ? 'bg-red-500/5 border-red-500/20' 
           : 'bg-green-500/5 border-green-500/20'
       }`}>
-        <div className={`p-3 rounded-full ${interactionCount > 0 ? 'bg-red-500/10 text-red-500' : 'bg-green-500/10 text-green-500'}`}>
+        <div className={`p-3 rounded-full w-fit ${interactionCount > 0 ? 'bg-red-500/10 text-red-500' : 'bg-green-500/10 text-green-500'}`}>
           {interactionCount > 0 ? <AlertTriangle size={24} /> : <CheckCircle size={24} />}
         </div>
-        <div>
+        <div className="min-w-0">
           <h2 className={`text-xl font-bold mb-1 ${interactionCount > 0 ? "text-red-400" : "text-green-400"}`}>
             {interactionCount > 0 
               ? `${interactionCount} Interaction${interactionCount > 1 ? 's' : ''} Detected` 
@@ -63,7 +63,7 @@ export default function ReportView({ data }) {
 
       {/* 2. Clinical Analysis Cards*/}
       {interactionCount > 0 && (
-        <div className="space-y-6">
+        <div className="space-y-6 w-full max-w-full">
           <div className="flex items-center gap-2 mb-2">
             <ShieldAlert className="text-primary w-5 h-5" />
             <h3 className="text-lg font-bold text-white">Clinical Analysis</h3>
@@ -73,42 +73,42 @@ export default function ReportView({ data }) {
             const styles = getSeverityStyles(card.severity);
             
             return (
-              <div key={idx} className="bg-dark-800 rounded-xl border border-dark-700 overflow-hidden shadow-lg hover:border-dark-600 transition-all">
+              <div key={idx} className="bg-dark-800 rounded-xl border border-dark-700 overflow-hidden shadow-lg hover:border-dark-600 transition-all w-full max-w-full">
                 
                 {/* Card Header */}
-                <div className={`px-6 py-4 border-b border-dark-700 flex justify-between items-center ${styles.bg}`}>
-                  <div className="flex items-center gap-3 flex-wrap">
+                <div className={`px-4 sm:px-6 py-4 border-b border-dark-700 flex flex-col gap-4 sm:flex-row sm:justify-between sm:items-center ${styles.bg}`}>
+                  <div className="flex items-center gap-3 flex-wrap min-w-0">
                     <span className="text-lg font-bold text-white">{card.drug_a}</span>
                     <span className="text-gray-500 font-light">↔</span>
                     <span className="text-lg font-bold text-white">{card.drug_b}</span>
                   </div>
-                  <span className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm ${styles.badge}`}>
+                  <span className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm w-fit ${styles.badge}`}>
                     {card.severity}
                   </span>
                 </div>
 
                 {/* Card Body */}
-                <div className="p-6 space-y-5">
+                <div className="p-4 sm:p-6 space-y-5">
                   
                   {/* Interaction Summary*/}
                   <div>
                     <h4 className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2 flex items-center gap-2">
                       <Info size={14} /> Interaction Summary
                     </h4>
-                    <p className="text-gray-300 text-sm leading-relaxed bg-dark-900/50 p-3 rounded-lg border border-dark-700/50">
+                    <p className="text-gray-300 text-sm leading-relaxed bg-dark-900/50 p-3 rounded-lg border border-dark-700/50 break-words">
                       {/* Check both fields for backward compatibility */}
                       {card.interaction_summary || card.mechanism}
                     </p>
                   </div>
 
                   {/* Grid for Actionable Info */}
-                  <div className="grid md:grid-cols-2 gap-4">
+                  <div className="grid gap-4 md:grid-cols-2">
                     {/* Recommendation */}
                     <div className="bg-blue-500/5 p-4 rounded-lg border border-blue-500/10">
                       <h4 className="text-xs font-bold text-blue-400 uppercase tracking-wider mb-2">
                         Clinical Recommendation
                       </h4>
-                      <p className="text-sm text-gray-300">
+                      <p className="text-sm text-gray-300 break-words">
                         {card.recommendation}
                       </p>
                     </div>
@@ -118,7 +118,7 @@ export default function ReportView({ data }) {
                       <h4 className="text-xs font-bold text-orange-400 uppercase tracking-wider mb-2">
                         Patient Specific Risk
                       </h4>
-                      <p className="text-sm text-gray-300">
+                      <p className="text-sm text-gray-300 break-words">
                         {card.patient_risk}
                       </p>
                     </div>
@@ -133,12 +133,12 @@ export default function ReportView({ data }) {
 
       {/* 3. Food Interactions */}
       {Object.keys(food.food_warnings).length > 0 && (
-        <div className="bg-dark-800 rounded-xl border border-dark-700 overflow-hidden">
-          <div className="bg-dark-900/50 px-6 py-4 border-b border-dark-700 flex items-center gap-2">
+        <div className="bg-dark-800 rounded-xl border border-dark-700 overflow-hidden w-full max-w-full">
+          <div className="bg-dark-900/50 px-4 sm:px-6 py-4 border-b border-dark-700 flex items-center gap-2">
             <Apple className="text-yellow-500 w-5 h-5" />
             <h3 className="font-semibold text-white">Food & Lifestyle Interactions</h3>
           </div>
-          <div className="p-6 grid gap-6 md:grid-cols-2">
+          <div className="p-4 sm:p-6 grid gap-4 md:gap-6 md:grid-cols-2">
             {Object.entries(food.food_warnings).map(([drug, warnings]) => (
               <div key={drug} className="bg-dark-900 p-4 rounded-lg border border-dark-700">
                 <div className="flex items-center gap-2 mb-3">
@@ -147,7 +147,7 @@ export default function ReportView({ data }) {
                 </div>
                 <ul className="space-y-2">
                   {warnings.map((w, i) => (
-                    <li key={i} className="text-sm text-gray-400 flex items-start gap-2">
+                    <li key={i} className="text-sm text-gray-400 flex items-start gap-2 break-words">
                         <span className="text-dark-600 mt-1">•</span>
                         {w}
                     </li>
@@ -160,14 +160,14 @@ export default function ReportView({ data }) {
       )}
 
       {/* 4. References */}
-      <div className="bg-dark-800/30 rounded-xl border border-dark-700/50">
-        <div className="px-6 py-4 border-b border-dark-700/50 flex items-center gap-2">
+      <div className="bg-dark-800/30 rounded-xl border border-dark-700/50 w-full max-w-full">
+        <div className="px-4 sm:px-6 py-4 border-b border-dark-700/50 flex items-center gap-2">
           <BookOpen className="text-blue-400 w-5 h-5" />
           <h3 className="font-semibold text-gray-300">Clinical References</h3>
         </div>
-        <div className="p-6 space-y-6">
+        <div className="p-4 sm:p-6 space-y-6">
             {Object.entries(references.references).map(([drug, refs]) => (
-            <div key={drug} className="relative pl-4 border-l-2 border-dark-700 hover:border-blue-500/50 transition-colors">
+            <div key={drug} className="relative pl-4 border-l-2 border-dark-700 hover:border-blue-500/50 transition-colors break-words">
                 <h4 className="font-bold text-white mb-2 text-sm">{drug}</h4>
                 
                 <div className="space-y-3">
@@ -177,7 +177,7 @@ export default function ReportView({ data }) {
                             <span className="text-gray-500 font-semibold uppercase tracking-wider block mb-1">Articles</span>
                             <div className="space-y-1">
                                 {refs.articles.slice(0, 2).map((art, i) => (
-                                    <p key={i} className="text-gray-400 truncate hover:text-white transition-colors">📄 {art}</p>
+                                    <p key={i} className="text-gray-400 hover:text-white transition-colors break-words">📄 {art}</p>
                                 ))}
                             </div>
                         </div>
@@ -189,7 +189,7 @@ export default function ReportView({ data }) {
                             <span className="text-gray-500 font-semibold uppercase tracking-wider block mb-1">External Resources</span>
                             <div className="space-y-1">
                                 {refs.links.slice(0, 2).map((link, i) => (
-                                    <a key={i} href={link.split(': ')[1]} target="_blank" rel="noopener noreferrer" className="block text-blue-400/80 hover:text-blue-300 truncate hover:underline">
+                                    <a key={i} href={link.split(': ')[1]} target="_blank" rel="noopener noreferrer" className="block text-blue-400/80 hover:text-blue-300 break-words hover:underline">
                                         🔗 {link.split(': ')[0]}
                                     </a>
                                 ))}

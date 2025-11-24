@@ -8,7 +8,7 @@ import { analyzeInteractions } from './api';
 
 function App() {
   const [meds, setMeds] = useState([]);
-  const [patient, setPatient] = useState({ age: 65, gender: 'Male' });
+  const [patient, setPatient] = useState({ age: '', gender: '' });
   const [reportData, setReportData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -30,6 +30,10 @@ function App() {
 
   const handleAnalyze = async () => {
     if (meds.length < 2) return;
+    if (!patient.age || !patient.gender) {
+      setError("Please enter the patient's age and gender.");
+      return;
+    }
     
     setLoading(true);
     setError(null);
@@ -48,7 +52,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-dark-900 text-gray-100 selection:bg-primary selection:text-white font-sans pb-20">
+    <div className="min-h-screen bg-dark-900 text-gray-100 selection:bg-primary selection:text-white font-sans pb-20 overflow-x-hidden">
       
       {/* Header */}
       <nav className="border-b border-dark-700 bg-dark-800/50 backdrop-blur-md sticky top-0 z-40 mb-10">
@@ -62,7 +66,7 @@ function App() {
         </div>
       </nav>
 
-      <main className="max-w-6xl mx-auto px-4 md:px-6">
+      <main className="max-w-6xl mx-auto px-4 md:px-6 w-full">
         
         {/* Hero */}
         <div className="text-center mb-12 animate-fade-in-down">
@@ -74,10 +78,10 @@ function App() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-12 gap-8 items-start">
+        <div className="grid lg:grid-cols-12 gap-8 items-start w-full">
           
           {/* Left Sidebar */}
-          <div className="lg:col-span-4 space-y-6 sticky top-24">
+          <div className="lg:col-span-4 space-y-6 lg:sticky lg:top-24 w-full">
             
             <div className="bg-dark-800 p-6 rounded-2xl border border-dark-700 shadow-xl shadow-black/20">
               <h3 className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-5 flex items-center gap-2">
@@ -106,7 +110,7 @@ function App() {
 
               <button
                 onClick={handleAnalyze}
-                disabled={meds.length < 2 || loading}
+                disabled={meds.length < 2 || loading || !patient.age || !patient.gender}
                 className={`w-full mt-6 py-3.5 rounded-xl font-bold text-sm uppercase tracking-wide transition-all duration-300 flex items-center justify-center gap-2 shadow-lg ${
                   meds.length < 2 || loading
                     ? 'bg-dark-700 text-gray-500 cursor-not-allowed border border-dark-600' 
@@ -126,7 +130,7 @@ function App() {
           </div>
 
           {/* Right Content */}
-          <div className="lg:col-span-8 space-y-6">
+          <div className="lg:col-span-8 space-y-6 w-full">
             
             <SearchBar onAdd={addMed} />
             

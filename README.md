@@ -103,7 +103,7 @@ DrugGuard AI is a full-stack web application that helps healthcare professionals
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                    Frontend (React)                     │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐               │
+│  ┌──────────┐  ┌───────────┐  ┌──────────┐              │
 │  │ SearchBar│  │Medication │  │ReportView│              │
 │  │          │  │   List    │  │          │              │
 │  └────┬─────┘  └─────┬─────┘  └─────┬────┘              │
@@ -116,11 +116,11 @@ DrugGuard AI is a full-stack web application that helps healthcare professionals
 │                    Backend (FastAPI)                    │
 │  ┌──────────────────────────────────────────┐           │
 │  │         API Endpoints (main.py)          │           │
-│  └──────┬───────────────────────┬────────────┘          │
+│  └──────┬───────────────────────┬───────────┘           │
 │         │                       │                       │
 │  ┌──────▼──────┐      ┌────────▼─────────┐              │
 │  │DrugResolver │      │InteractionEngine │              │
-│  └──────┬──────┘      └────────┬─────────┘              │
+│  └──────┬──────┘      └─────────┬────────┘              │
 │         │                       │                       │
 │         └───────────┬───────────┘                       │
 │                     │                                   │
