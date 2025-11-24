@@ -1,10 +1,22 @@
 # 💊 Medication Interaction Checker (DrugGuard AI)
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue?style=for-the-badge)](https://prime-07.github.io/Medication_Interaction_Checker/)
+
 A comprehensive, AI-powered system that analyzes patient medication lists and identifies potential dangerous drug-drug interactions. Built with FastAPI, React, and powered by DrugBank database and Llama 3.1 LLM for clinical analysis.
+
+> **🌐 [Try the Live Demo](https://prime-07.github.io/Medication_Interaction_Checker/)** - Frontend hosted on GitHub Pages, backend running via ngrok
 
 ## 🎯 Overview
 
 DrugGuard AI is a full-stack web application that helps healthcare professionals and patients identify potentially dangerous medication interactions in real-time. The system uses the DrugBank database for interaction detection and leverages AI (Llama 3.1) for severity classification, clinical recommendations, and patient-specific risk assessment.
+
+## 🌐 Live Demo
+
+**Frontend**: The application is live and hosted on GitHub Pages at [https://prime-07.github.io/Medication_Interaction_Checker/](https://prime-07.github.io/Medication_Interaction_Checker/)
+
+**Backend**: The FastAPI backend is running on a local machine and exposed via ngrok tunnel. The frontend is configured to connect to the ngrok endpoint for API requests.
+
+> **Note**: The backend server must be running locally with ngrok active for the live demo to function properly. The ngrok URL is configured in `frontend/src/api.js`.
 
 ## ✨ Key Features
 
@@ -242,7 +254,23 @@ cd frontend
 npm install
 ```
 
-### Step 5: Configuration
+### Step 5: Set Up Ngrok (for Live Deployment)
+
+If you want to expose your backend for the live frontend:
+
+1. Install ngrok from [ngrok.com](https://ngrok.com/)
+2. Start your backend server (see Usage section)
+3. In a new terminal, create a tunnel:
+```bash
+ngrok http 8000
+```
+4. Copy the HTTPS URL (e.g., `https://xxxxx.ngrok-free.app`)
+5. Update `frontend/src/api.js` with your ngrok URL:
+```javascript
+const API_URL = 'https://your-ngrok-url.ngrok-free.app';
+```
+
+### Step 6: Configuration
 
 Update `app/backend/config.py` if needed:
 - `OLLAMA_URL`: Default is `http://localhost:11434/api/generate`
@@ -387,10 +415,15 @@ numpy==2.0.1
 
 ## 📝 Notes
 
+- **Live Deployment**: Frontend is hosted on GitHub Pages, backend runs locally via ngrok
 - The system supports up to 5 medications per analysis
 - Ollama must be running locally for AI features to work
 - The DrugBank database is a subset (10 required tables) for performance
 - All AI analysis is performed locally (no external API calls)
+- For the live demo to work, ensure:
+  - Backend server is running on localhost:8000
+  - Ngrok tunnel is active and URL is updated in `frontend/src/api.js`
+  - Ollama server is running with llama3.1:8b model loaded
 
 ## 🤝 Contributing
 
