@@ -257,12 +257,14 @@ Update `app/backend/config.py` if needed:
 # Activate conda environment
 conda activate DDI
 
-# Navigate to backend directory
-cd app/backend
+# Navigate to project root directory
+cd Medication_Interaction_Checker
 
-# Start FastAPI server
-uvicorn main:app --reload --host 127.0.0.1 --port 8000
+# Start FastAPI server (run from project root)
+uvicorn app.backend.main:app --reload --host 127.0.0.1 --port 8000
 ```
+
+**Note**: Run uvicorn from the project root directory, not from `app/backend`. This ensures Python recognizes the package structure and relative imports work correctly.
 
 The API will be available at `http://127.0.0.1:8000`
 
