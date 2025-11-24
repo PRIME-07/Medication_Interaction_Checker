@@ -26,12 +26,22 @@ export default function SearchBar({ onAdd }) {
         setLoading(true);
         try {
           const data = await searchDrugs(query);
-          setResults(data);
-          setShowDropdown(true);
+          // Ensure data is an array before setting results
+          if (Array.isArray(data)) {
+            setResults(data);
+            setShowDropdown(true);
+          } else {
+            console.error("Search returned non-array data:", data);
+            setResults([]);
+            setShowDropdown(false);
+          }
         } catch (e) {
-          console.error(e);
+          console.error("Search error:", e);
+          setResults([]);
+          setShowDropdown(false);
+        } finally {
+          setLoading(false);
         }
-        setLoading(false);
       } else {
         setResults([]);
         setShowDropdown(false);
@@ -71,7 +81,7 @@ export default function SearchBar({ onAdd }) {
       </div>
 
       {/* Dropdown Results */}
-      {showDropdown && results.length > 0 && (
+      {showDropdown && Array.isArray(results) && results.length > 0 && (
         <div className="absolute w-full mt-2 bg-dark-800 border border-dark-700 rounded-lg shadow-2xl max-h-60 overflow-y-auto overflow-x-hidden z-[100]">
           {results.map((item, idx) => (
             <button

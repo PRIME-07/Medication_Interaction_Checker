@@ -14,13 +14,15 @@ from .database import db_manager
 
 app = FastAPI(title="Medication Interaction Checker")
 
+
+
 #1. CORS Middleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
-    allow_headers=["*"],
+    allow_headers=["*", "ngrok-skip-browser-warning"],  # Explicitly allow ngrok header
 )
 
 #2. Initialize Services

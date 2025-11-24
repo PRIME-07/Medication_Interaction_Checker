@@ -5,7 +5,7 @@ import tailwindcss from 'tailwindcss'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/Medication_Interaction_Checker",
+  base: "/Medication_Interaction_Checker/",
   css: {
     postcss: {
       plugins: [
