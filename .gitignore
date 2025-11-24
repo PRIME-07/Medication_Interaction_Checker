@@ -20,3 +20,7 @@ frontend/*.local
 ngrok.md
 
 app/node_modules/
+
+*.csv
+*.db
+drugbank_parsed_csvs_required_10/
