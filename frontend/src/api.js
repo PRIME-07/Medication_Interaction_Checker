@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://e82ff5ddbd5f.ngrok-free.app';    // For localhost: http://127.0.0.1:8000
+const API_URL = 'https://629807ad2bb2.ngrok-free.app';    // For localhost: http://127.0.0.1:8000
 
 // Create axios instance with default config
 const apiClient = axios.create({

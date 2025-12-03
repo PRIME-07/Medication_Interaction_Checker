@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List
 from .schemas import (
-    MedsRequest, IDRequest, AnalysisRequest, ReportRequest, SeverityRequest,
+    MedsRequest, IDRequest, AnalysisRequest, ReportRequest,
     InteractionResponse, FoodResponse, ReferenceResponse, ReportResponse, SeverityResponse,
     MechanismResponse, RecommendationResponse, RiskResponse,
     DrugSearchResult
@@ -92,7 +92,8 @@ async def search_drugs(q: str = Query(..., min_length=2)):
 async def get_interactions(request: MedsRequest):
     if len(request.medications) > 5:
         raise HTTPException(status_code=400, detail="Max 5 medications allowed.")
-
+    
+    # Call resolver
     resolved_map = resolver.resolve_input(request.medications)
     unique_ids = list(set(resolved_map.values()))
     
@@ -224,3 +225,14 @@ async def get_ai_report(request: ReportRequest):
         clinical_analysis="See cards below", 
         analysis_cards=cards 
     )
+
+
+
+'''
+Example:
+
+high: Isotretinoin, Doxycycline
+morderate: Calcium carbonate, Doxycycline
+low: Digoxin, Metronidazole [Metrogel]
+none: Acetaminophen, Ethyl loflazepate
+'''

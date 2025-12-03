@@ -34,9 +34,6 @@ class AnalysisRequest(BaseModel):
 class ReportRequest(AnalysisRequest):
     pass
 
-class SeverityRequest(BaseModel):
-    interactions: List[InteractionItem]
-
 
 # RESPONSE MODELS
 class InteractionResponse(BaseModel):

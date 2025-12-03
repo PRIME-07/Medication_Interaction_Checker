@@ -4,10 +4,10 @@ import os
 import numpy as np
 
 # Configuration
-CSV_DIR = './drugbank_parsed_csvs_required_10' 
+CSV_DIR = './drugbank_parsed_csvs_required_10'
 DB_FILE = 'req_10_sqlite_drugbank.db'
 
-# Exact mapping based on your screenshot
+# Mapping csv file names to table
 FILES_TO_PROCESS = {
     # 1. Core Drug Info
     "general_information_drugbank_drugs.csv": "general_info",
@@ -32,7 +32,7 @@ def clean_and_load(csv_name, table_name, conn):
     file_path = os.path.join(CSV_DIR, csv_name)
     
     if not os.path.exists(file_path):
-        print(f"⚠️ CRITICAL: {csv_name} missing in {CSV_DIR}")
+        print(f"CRITICAL: {csv_name} missing in {CSV_DIR}")
         return
 
     print(f"Processing {csv_name} -> Table: '{table_name}'")
@@ -52,7 +52,7 @@ def clean_and_load(csv_name, table_name, conn):
         if table_name == 'mixtures' and 'ingredients' in df.columns:
             df['ingredients'] = df['ingredients'].astype(str)
 
-        # Write to SQL (Replace logic ensures we start fresh)
+        # Write to SQL (Replace ensures we start fresh)
         df.to_sql(table_name, conn, if_exists='replace', index=False)
         
         print(f"   -> Loaded {len(df)} rows.")
@@ -90,7 +90,6 @@ def add_indices(conn):
 
 # Execution
 if __name__ == "__main__":
-    # Delete old DB file to ensure clean creation of DB
     if os.path.exists(DB_FILE):
         try:
             os.remove(DB_FILE)
