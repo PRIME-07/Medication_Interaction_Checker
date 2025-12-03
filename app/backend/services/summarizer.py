@@ -19,7 +19,7 @@ class ClinicalSummarizer:
             context['desc'] = res[0]['description']
         
         # Pharmacology
-        res = self.db.query("SELECT mechanism_of_action, toxicity, clearance, pharmacodynamics FROM pharmacology WHERE drugbank_id = ?", (drug_id,))
+        res = self.db.query("SELECT * FROM pharmacology WHERE drugbank_id = ?", (drug_id,))
         if res:
             pharm_data = dict(res[0])
             context.update({k: v for k, v in pharm_data.items() if v})
@@ -129,6 +129,7 @@ class ClinicalSummarizer:
 
             prompt = f"""
             Provide a CLINICAL RECOMMENDATION (2-3 lines).
+            Include specific timing/spacing advice if applicable based on pharmacology (e.g. half-life, absorption).
             Interaction: "{inter['description']}"
             Context: {json.dumps(context_text)}
             Return JSON: {{ "recommendation": "..." }}
@@ -165,6 +166,8 @@ class ClinicalSummarizer:
             prompt = f"""
             Assess PATIENT SPECIFIC RISK.
             Patient: {patient['age']} year old {patient['gender']}
+            Weight: {patient.get('weight', 'N/A')} kg, Height: {patient.get('height', 'N/A')} cm
+            Conditions: {', '.join(patient.get('conditions', []))}
             Interaction: "{inter['description']}"
             Context: {json.dumps(context_text)}
             Return JSON: {{ "patient_risk": "Single string explaining risk." }}
@@ -204,4 +207,3 @@ class ClinicalSummarizer:
             })
             
         return cards
-        

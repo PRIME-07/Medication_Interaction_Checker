@@ -8,7 +8,7 @@ import { analyzeInteractions } from './api';
 
 function App() {
   const [meds, setMeds] = useState([]);
-  const [patient, setPatient] = useState({ age: '', gender: '' });
+  const [patient, setPatient] = useState({ age: '', gender: '', weight: '', height: '', conditions: [] });
   const [reportData, setReportData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -34,7 +34,7 @@ function App() {
       setError("Please enter the patient's age and gender.");
       return;
     }
-    
+
     setLoading(true);
     setError(null);
     setReportData(null);
@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-dark-900 text-gray-100 selection:bg-primary selection:text-white font-sans pb-20 overflow-x-hidden">
-      
+
       {/* Header */}
       <nav className="border-b border-dark-700 bg-dark-800/50 backdrop-blur-md sticky top-0 z-40 mb-10">
         <div className="max-w-6xl mx-auto px-4 md:px-6 h-16 flex items-center gap-3">
@@ -67,7 +67,7 @@ function App() {
       </nav>
 
       <main className="max-w-6xl mx-auto px-4 md:px-6 w-full">
-        
+
         {/* Hero */}
         <div className="text-center mb-12 animate-fade-in-down">
           <h2 className="text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
@@ -79,10 +79,10 @@ function App() {
         </div>
 
         <div className="grid lg:grid-cols-12 gap-8 items-start w-full">
-          
+
           {/* Left Sidebar */}
           <div className="lg:col-span-4 space-y-6 lg:sticky lg:top-24 w-full">
-            
+
             <div className="bg-dark-800 p-6 rounded-2xl border border-dark-700 shadow-xl shadow-black/20">
               <h3 className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-5 flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-primary"></span>
@@ -97,25 +97,23 @@ function App() {
                   <span className="w-2 h-2 rounded-full bg-blue-500"></span>
                   2. Medication List
                 </h3>
-                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${
-                  meds.length === 5 
-                    ? 'bg-red-500/10 text-red-400 border-red-500/20' 
+                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${meds.length === 5
+                    ? 'bg-red-500/10 text-red-400 border-red-500/20'
                     : 'bg-dark-900 text-gray-400 border-dark-600'
-                }`}>
+                  }`}>
                   {meds.length}/5
                 </span>
               </div>
-              
+
               <MedicationList meds={meds} onRemove={removeMed} />
 
               <button
                 onClick={handleAnalyze}
                 disabled={meds.length < 2 || loading || !patient.age || !patient.gender}
-                className={`w-full mt-6 py-3.5 rounded-xl font-bold text-sm uppercase tracking-wide transition-all duration-300 flex items-center justify-center gap-2 shadow-lg ${
-                  meds.length < 2 || loading
-                    ? 'bg-dark-700 text-gray-500 cursor-not-allowed border border-dark-600' 
+                className={`w-full mt-6 py-3.5 rounded-xl font-bold text-sm uppercase tracking-wide transition-all duration-300 flex items-center justify-center gap-2 shadow-lg ${meds.length < 2 || loading
+                    ? 'bg-dark-700 text-gray-500 cursor-not-allowed border border-dark-600'
                     : 'bg-primary hover:bg-secondary text-white shadow-primary/25 hover:shadow-primary/40 hover:-translate-y-0.5 active:translate-y-0 border border-primary'
-                }`}
+                  }`}
               >
                 {loading ? (
                   <>
@@ -131,15 +129,15 @@ function App() {
 
           {/* Right Content */}
           <div className="lg:col-span-8 space-y-6 w-full">
-            
+
             <SearchBar onAdd={addMed} />
-            
+
             {error && (
               <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/30 text-red-400 flex items-center gap-3 animate-shake">
                 <AlertTriangle className="h-5 w-5 shrink-0" />
                 <div>
-                    <p className="font-bold text-sm">Error</p>
-                    <p className="text-sm opacity-90">{error}</p>
+                  <p className="font-bold text-sm">Error</p>
+                  <p className="text-sm opacity-90">{error}</p>
                 </div>
               </div>
             )}
@@ -164,7 +162,7 @@ function App() {
                 <ReportView data={reportData} />
               </div>
             )}
-            
+
             {!loading && !reportData && !error && (
               <div className="flex flex-col items-center justify-center py-32 text-center border-2 border-dashed border-dark-700 rounded-2xl opacity-40 hover:opacity-60 transition-opacity">
                 <div className="bg-dark-800 p-4 rounded-full mb-4">

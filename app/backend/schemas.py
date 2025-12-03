@@ -5,6 +5,9 @@ from typing import List, Dict, Optional
 class PatientProfile(BaseModel):
     age: int
     gender: str
+    weight: Optional[float] = None
+    height: Optional[float] = None
+    conditions: Optional[List[str]] = []
 
 class DrugSearchResult(BaseModel):
     name: str
